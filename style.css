@@ -4,10 +4,47 @@ body {
     background-color: #050000; /* Цвет фона веб-страницы */
     color: #f7f7f7; /* Цвет основного текста */ 
     /* background-image: url(https://avatars.mds.yandex.net/i?id=56806967ba50c1031edbc16b7ae5200b38a46a86-5233584-images-thumbs&n=13); */
+    text-align: center
+}
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
 }
 h1 {
     color: #1de5ec; /* Цвет заголовка */
     font-size: 24px; /* Размер шрифта в пунктах */
     font-family: Georgia, serif; /* Семейство шрифтов */
-    
+
+}
+.column {
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+ul {
+    list-style: None;
+}
+
+
+p {
+    animation: color-change 3s infinite;
+
+}
+
+
+
+h1:hover {
+    animation: color-change 3s infinite;
 }

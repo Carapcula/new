@@ -6,6 +6,7 @@ body {
     /* background-image: url(https://avatars.mds.yandex.net/i?id=56806967ba50c1031edbc16b7ae5200b38a46a86-5233584-images-thumbs&n=13); */
     text-align: center
 }
+
 @keyframes color-change {
     0% {
       color: rgb(142, 232, 255);
